@@ -1,24 +1,18 @@
 # Vite + React + Motoko
 
-### Get started directly in your browser:
+## Intro
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rvanasa/vite-react-motoko)
+This is a simple Internet Computer dapp that gets crypto price history between a given range of time. It performs a http "get" outcall via a canister to the free coinbase API
 
-This template gives you everything you need to build a full-stack Web3 application on the [Internet Computer](https://internetcomputer.org/).
-
-For an example of a real-world dapp built using this starter project, check out the [source code](https://github.com/dfinity/feedback) for DFINITY's [Developer Experience Feedback Board](https://dx.internetcomputer.org/).
-
-## 📦 Create a New Project
+## Installation and Running
 
 Make sure that [Node.js](https://nodejs.org/en/) `>= 16` and [`dfx`](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove) `>= 0.14` are installed on your system.
 
-Run the following commands in a new, empty project directory:
+Run the following commands;
 
 ```sh
-npx degit rvanasa/vite-react-motoko # Download this starter project
 dfx start --clean --background # Run dfx in the background
 npm run setup # Install packages, deploy canisters, and generate type bindings
-
 npm start # Start the development server
 ```
 
