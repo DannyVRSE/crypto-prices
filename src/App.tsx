@@ -12,6 +12,7 @@ function App() {
 
   const { call: increment, loading } = useUpdateCall({
     functionName: 'inc',
+    //refresh value of count variable
     onSuccess: () => {
       refetchCount();
     },
